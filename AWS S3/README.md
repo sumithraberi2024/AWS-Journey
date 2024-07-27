@@ -16,3 +16,6 @@ Amazon S3 Use cases :
 2. Disaster recovery  - For example, you will move your data to another region.In case a region goes down,then your data is backed up somewhere else.
 3. Archieve - You can archieve files in amazon s3 and retrieve it later for much much cheaper
 4. Hybrid cloud storage - In case you have storage in on premices and you wont expand it into the cloud then you can use amazon S3.
+5. Application and media hosting - To host the applications or to host the media files etc
+6. Date lake - To store lot of data and to perform big analytics to deliver a softwares
+7. Hosting static websites so on .
