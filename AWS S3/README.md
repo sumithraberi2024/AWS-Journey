@@ -11,14 +11,8 @@ Objects - contain the actual data and metadata.
 Keys - unique identifiers for each object within a bucket
 Region - denotes the geographic location where the bucket is stored.
 
-Amazon S3 buckets
-Amazon S3 offers two types of buckets which act as containers for your data.
-
-General purpose buckets, the original S3 bucket type, are designed for a wide range of use cases and access patterns. Data is stored as as flat files at the root level and given unique global names. Using prefixes and delimiters, data can be categorized for ease of management and better performance.
-Directory buckets utilize the S3 Express One Zone storage class (discussed later in this chapter), which particularly ideal for applications that require very high performance and benefit from single-digit millisecond PUT and GET latencies.
-Amazon S3 buckets can host as many objects as you want. It offers 11 ‘9s’ (99.999999999) durability and 4 9’s (99.99) of availability. This is achieved because Amazon S3 replicated your objects, across multiple devices, across all availability zones within a region for most storage classes. Access to buckets is managed via bucket policies and access control lists (discussed later in this section).
-
-Amazon S3 objects
-Rather than breaking down data into smaller segments and storing it on block storage, Amazon S3 retains data as complete objects. An object is comprised of three elements: data, metadata, and a unique identifier. Metadata contains context-specific information about the object and is stored as a collection of key-value pairs. It includes essential details such as the content type, length, and last modified date. Two types of metadata can be linked to an object in Amazon S3: user-defined and system-defined.
-
-Object storage is ideal for data that needs to be highly durable and where the storage platform is scalable. Unlike file and block storage, which have additional technical limitations and higher costs, object storage services such as Amazon S3 are ideal for hosting digital assets such as videos, images, and documents.
+Amazon S3 Use cases :
+1. It is widely used for backup and storage
+2. Disaster recovery  - For example, you will move your data to another region.In case a region goes down,then your data is backed up somewhere else.
+3. Archieve - You can archieve files in amazon s3 and retrieve it later for much much cheaper
+4. Hybrid cloud storage - In case you have storage in on premices and you wont expand it into the cloud then you can use amazon S3.
