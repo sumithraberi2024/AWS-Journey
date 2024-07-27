@@ -16,6 +16,7 @@ Region - denotes the geographic location where the bucket is stored.
 
 
 Amazon S3 Use cases :
+
 1. It is widely used for backup and storage
 2. Disaster recovery  - For example, you will move your data to another region.In case a region goes down,then your data is backed up somewhere else.
 3. Archieve - You can archieve files in amazon s3 and retrieve it later for much much cheaper
@@ -34,6 +35,7 @@ S3 Buckets:
 EX : sumithra-tst--database-backups
 
 S3 Objects:
+
 1.Objects(files) have a key 
 2. max object size is 5TB (5000GB)
 3.If uploading more than 5GB then must use multi part upload
