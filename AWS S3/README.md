@@ -42,4 +42,7 @@ S3 Objects:
 4.Objects has metadata and tags (tags are useful for security and lifecyle)
 5.It has version id if versioning is enabled
 
+S3 Security
 
+We have different types of protecting the data such as user based policies (IAM) and resource based policies 
+encryption - encrypt the objects using encryption keys 
