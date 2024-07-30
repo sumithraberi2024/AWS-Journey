@@ -85,9 +85,13 @@ enabling s3 bucket versioning helps for unintended deletes
 It protects the data from the accidental deletions 
 We can also rollback to the any version of data that we needed 
 
+
 Object Lock:
 
 Another feature of Amazon S3 that helps prevent accidental deletions is Object Lock. This service uses a write-once-read-many (WORM) model to avoid Amazon S3 objects from being deleted or overwritten. Often used in environments where the organization needs to meet regulatory requirements or to add an additional layer of protection. Amazon S3 Object lock is configurable in two ways:
 
 Retention period – where you specify a fixed period during which an object remains locked by either setting retention periods on individual objects or as a default retention period for the whole bucket. You can also configure minimum and maximum allowable retention periods with the s3:object-lock-remaining-retention-days bucket policy conditional statement.
 Legal hold – where the object is protected indefinitely with no retention period until you explicitly remove it.
+
+
+Encryption options for Amazon S3 
